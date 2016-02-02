@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1454058679 source:/home/pieter/Projecten/DragonScheme/interpretable.cpp
+	"interpretable.h"
+
+1454058803 /home/pieter/Projecten/DragonScheme/interpretable.h
+
+1454255243 source:/home/pieter/Projecten/DragonScheme/literalnumber.cpp
+	"literalnumber.h"
+
+1454158658 /home/pieter/Projecten/DragonScheme/literalnumber.h
+	"expression.h"
+
+1454257541 /home/pieter/Projecten/DragonScheme/expression.h
+	<iostream>
+	<vector>
+	<sstream>
+	"typedefs.h"
+	"interpretable.h"
+
+1454256000 /home/pieter/Projecten/DragonScheme/typedefs.h
+
+1454353257 source:/home/pieter/Projecten/DragonScheme/main.cpp
+	<iostream>
+	<string>
+	"parser.h"
+	"expression.h"
+
+1454425541 /home/pieter/Projecten/DragonScheme/parser.h
+	<string>
+	<cstring>
+	<istream>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<sstream>
+	"sequentialbuffer.h"
+	"plusoperation.h"
+	"literalnumber.h"
+	"minoperation.h"
+	"multoperation.h"
+	"divoperation.h"
+
+1454318402 /home/pieter/Projecten/DragonScheme/sequentialbuffer.h
+	<cstring>
+	<string>
+
+1454332019 /home/pieter/Projecten/DragonScheme/plusoperation.h
+	"expression.h"
+
+1454332130 /home/pieter/Projecten/DragonScheme/minoperation.h
+	"expression.h"
+
+1454331289 source:/home/pieter/Projecten/DragonScheme/sequentialbuffer.cpp
+	"sequentialbuffer.h"
+
+1454408932 source:/home/pieter/Projecten/DragonScheme/expression.cpp
+	"expression.h"
+
+1454408932 source:/home/pieter/Projecten/DragonScheme/minoperation.cpp
+	"minoperation.h"
+
+1454408932 source:/home/pieter/Projecten/DragonScheme/plusoperation.cpp
+	"plusoperation.h"
+
+1454409293 /home/pieter/Projecten/DragonScheme/multoperation.h
+	"expression.h"
+
+1454410238 source:/home/pieter/Projecten/DragonScheme/multoperation.cpp
+	"multoperation.h"
+
+1454425673 source:/home/pieter/Projecten/DragonScheme/parser.cpp
+	"parser.h"
+
+1454425225 source:/home/pieter/Projecten/DragonScheme/divoperation.cpp
+	"divoperation.h"
+
+1454425252 /home/pieter/Projecten/DragonScheme/divoperation.h
+	<cstdlib>
+	"expression.h"
+
